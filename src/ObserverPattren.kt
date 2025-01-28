@@ -58,7 +58,7 @@ class Phone: Observer{
 
 class Monitor: Observer{
     override fun update(temp: Int) {
-        println("Monitor updated: $temp")
+        println("Monitor  updated: $temp")
     }
 }
 
