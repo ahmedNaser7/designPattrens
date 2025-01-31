@@ -27,7 +27,7 @@
                                             +-----------------+
 
      - Component : base interface for all objects
-     - Leaf : doesn't have a chile of ref to the other objects
+     - Leaf : doesn't have a ( child or ref ) to the other objects
      - composite: has leaf elements
 
     ex
