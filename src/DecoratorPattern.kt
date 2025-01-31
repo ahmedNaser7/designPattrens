@@ -1,12 +1,12 @@
 /**
  *  Medium article -> https://medium.com/@softwaretechsolution/decorator-design-pattern-cafdf7c3f0b2
-idea :
-Component
-|
-|             |
-Decorator      no. of concrete components
-|
-no. of  concrete Decorators ( بهارات / additions )
+            idea :
+                     Component
+                         |
+                 |             |
+            Decorator      no. of concrete components
+                |
+            no. of  concrete Decorators ( بهارات / additions )
  */
 // Examples
 // Coffee shop
@@ -18,7 +18,7 @@ interface Text {
 }
 
 class PlainEdittext(
-    val content: String
+    private val content: String
 ) : Text {
     override fun getTextContent(): String {
         return content
@@ -26,7 +26,7 @@ class PlainEdittext(
 }
 
 abstract class DecoratedText(
-    val decoratedText: Text
+   protected val decoratedText: Text
 ) : Text {
     override fun getTextContent(): String {
         return decoratedText.getTextContent()
