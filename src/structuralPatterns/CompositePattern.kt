@@ -1,3 +1,5 @@
+package structuralPatterns
+
 /**
 
  medium Link : https://medium.com/@akshatsharma0610/composite-design-pattern-b1ebd0756aa9
@@ -61,7 +63,7 @@ interface Component{
 class Leaf(
     private val name:String,
     private val price:Double
-):Component{
+): Component {
 
     override fun showPrice() {
         println(price)
@@ -74,7 +76,7 @@ class Leaf(
 
 class Composite(
     val name:String
-):Component{
+): Component {
     var components:MutableList<Component> = mutableListOf()
 
     override fun showPrice() {
@@ -89,7 +91,7 @@ class Composite(
         }
     }
 
-    fun add(subComponent:Component){
+    fun add(subComponent: Component){
         components.add(subComponent)
     }
 }

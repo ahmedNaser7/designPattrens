@@ -1,3 +1,5 @@
+package structuralPatterns
+
 /**
  *  Medium article -> https://medium.com/@softwaretechsolution/decorator-design-pattern-cafdf7c3f0b2
             idea :

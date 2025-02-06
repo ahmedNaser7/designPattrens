@@ -1,4 +1,4 @@
-import javax.annotation.processing.Messager
+package structuralPatterns
 
 // bridge -> composition
 // handle problem of tight coupling
@@ -41,13 +41,13 @@ interface NotificationRenderer{
     fun render(title: String , message: String)
 }
 
-class AndroidNotificationRenderer:NotificationRenderer{
+class AndroidNotificationRenderer: NotificationRenderer {
     override fun render(text: String, message: String) {
         println("Android Notification rendered $text ,$message")
     }
 }
 
-class IosNotificationRenderer:NotificationRenderer{
+class IosNotificationRenderer: NotificationRenderer {
     override fun render(text: String, message: String) {
         println("Ios Notification rendered $text , $message ")
     }
@@ -66,7 +66,7 @@ class ImageNotification(
     title: String,
     message: String,
     val imageUrl:String
-):Notification(notificationRenderer,title,message){
+): Notification(notificationRenderer,title,message){
     override fun display() {
         notificationRenderer.render(title,"$message : $imageUrl")
     }
@@ -76,7 +76,7 @@ class TextNotification(
     notificationRenderer: NotificationRenderer,
     title: String,
     message: String
-):Notification(notificationRenderer,title,message){
+): Notification(notificationRenderer,title,message){
     override fun display() {
         notificationRenderer.render(title,message)
     }

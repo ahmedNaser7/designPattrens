@@ -1,4 +1,4 @@
-// The Proxy Pattern provides
+package structuralPatterns// The Proxy Pattern provides
 // a representative for another object in order to control the client’s access to it.
 // Subject & Real Subject & Proxy
 /**
@@ -30,7 +30,7 @@ interface Image{
 // Real-Subject
 class RealImage(
     val imageUrl:String
-):Image{
+): Image {
     override fun display() {
         println(imageUrl)
     }
@@ -39,7 +39,7 @@ class RealImage(
 // proxy
 class ProxyImage(
     val fileName:String
-):Image{
+): Image {
      var realImage: Image? = null
     override fun display() {
         if(realImage==null){
