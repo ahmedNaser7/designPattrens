@@ -1,4 +1,5 @@
-package structuralPatterns// The Flyweight design pattern is a structural pattern that optimizes memory usage by sharing a common state among multiple objects.
+package structuralPatterns
+// The Flyweight design pattern is a structural pattern that optimizes memory usage by sharing a common state among multiple objects.
 // Shared vs. Unique Data: Objects are split into shared (intrinsic) data and unique (extrinsic) data.
 // The shared data is stored in a central place and reused, while the unique data is kept separately.
 
