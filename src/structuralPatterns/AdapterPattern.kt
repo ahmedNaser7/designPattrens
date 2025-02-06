@@ -1,3 +1,5 @@
+package structuralPatterns
+
 /**
  * medium Link : https://medium.com/@akshatsharma0610/adapter-design-pattern-in-java-fa20d6df25b8
  *
@@ -24,7 +26,7 @@ class TeldaPayment{
 }
 
 // adapter
-class PaymentAdapterToTeldaPayment():Payment{
+class PaymentAdapterToTeldaPayment(): Payment {
     val teldaPayment = TeldaPayment()
     override fun onPayment(money: Int) {
         teldaPayment.onTeldaPayment(money)
