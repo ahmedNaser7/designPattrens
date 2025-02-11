@@ -1,4 +1,4 @@
-// command is a behavioural pattern that decouples the object
+package behaviouralPatterns// command is a behavioural pattern that decouples the object
 
 // command
 interface Command {
@@ -45,7 +45,7 @@ class LightOffCommand(
 
 // Invoker
 class RemoteControl{
-    private var command:Command?=null
+    private var command: Command?=null
     fun setCommend(command: Command){
         this.command = command
     }

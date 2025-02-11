@@ -1,4 +1,4 @@
-// The Chain of Responsibility pattern is a behavioral design pattern
+package behaviouralPatterns// The Chain of Responsibility pattern is a behavioral design pattern
 // that allows multiple objects to handle a request
 // without specifying the exact handler explicitly.
 
@@ -20,7 +20,7 @@ interface Approver {
 }
 
 class JuniorManager(
-):Approver{
+): Approver {
     private lateinit var nextApprover: Approver
     override fun setNextApprover(nextApprover: Approver) {
           this.nextApprover = nextApprover
@@ -35,7 +35,7 @@ class JuniorManager(
 }
 
 class SeniorManager(
-):Approver{
+): Approver {
     private lateinit var nextApprover: Approver
     override fun setNextApprover(nextApprover: Approver) {
         this.nextApprover = nextApprover
@@ -50,7 +50,7 @@ class SeniorManager(
 }
 
 class DirectorManager(
-):Approver{
+): Approver {
     private lateinit var nextApprover: Approver
     override fun setNextApprover(nextApprover: Approver) {
         this.nextApprover = nextApprover

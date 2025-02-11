@@ -1,4 +1,4 @@
-/*
+package behaviouralPatterns/*
     // TODO:
         Subject <<interface>> --> has a list of --> Observer<<interface>>
                    |                                        |
@@ -25,7 +25,7 @@ interface Observer{
     fun update(temp: Int)
 }
 
-class WeatherData: Subject{
+class WeatherData: Subject {
 
     private val observers: MutableList<Observer> = mutableListOf()
     private var temp: Int = 0
@@ -50,13 +50,13 @@ class WeatherData: Subject{
     }
 }
 
-class Phone: Observer{
+class Phone: Observer {
     override fun update(temp: Int) {
         println("Phone updated: $temp")
     }
 }
 
-class Monitor: Observer{
+class Monitor: Observer {
     override fun update(temp: Int) {
         println("Monitor  updated: $temp")
     }

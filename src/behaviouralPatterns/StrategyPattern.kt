@@ -1,4 +1,4 @@
-
+package behaviouralPatterns
 // strategy pattern help you to avoid hardcoding algorithms
 
 interface Payment{
@@ -6,7 +6,7 @@ interface Payment{
 }
 
 
-class CashPayment:Payment{
+class CashPayment: Payment {
     override fun pay(amount: Int) {
         println("pay $amount using Cash")
     }
@@ -14,14 +14,14 @@ class CashPayment:Payment{
 }
 
 
-class CreditCardPayment:Payment{
+class CreditCardPayment: Payment {
     override fun pay(amount: Int) {
         println("pay $amount using CreditCard")
     }
 
 }
 
-class PayPalPayment:Payment{
+class PayPalPayment: Payment {
     override fun pay(amount: Int) {
         println("pay $amount using PayPal")
     }
@@ -29,7 +29,7 @@ class PayPalPayment:Payment{
 }
 
 class PaymentContext{
-    private  var paymentStrategy:Payment? = null
+    private  var paymentStrategy: Payment? = null
 
     fun setPaymentStrategy(payment: Payment?){
         this.paymentStrategy = payment

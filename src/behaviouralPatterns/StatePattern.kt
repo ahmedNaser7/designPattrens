@@ -1,4 +1,4 @@
-// State Pattern : The State pattern suggests creating separate classes for each
+package behaviouralPatterns// State Pattern : The State pattern suggests creating separate classes for each
 // state of the object and delegating state-specific behavior to these classes.
 // components :
 // 1-context
