@@ -11,7 +11,7 @@ Welcome to the **Design Patterns in Kotlin** repository! 🚀 This repository co
 - [Prototype](src/creationalPatterns/PrototypePattern.kt)
 
 ### Structural Patterns
-- [Adapter](src/creationalPatterns/Adapter.kt)
+- [Adapter](src/structuralPatterns/AdapterPattern.kt)
 - [Bridge](src/creationalPatterns/Bridge.kt)
 - [Composite](src/creationalPatterns/Composite.kt)
 - [Decorator](src/creationalPatterns/Decorator.kt)
