@@ -5,32 +5,32 @@ Welcome to the **Design Patterns in Kotlin** repository! 🚀 This repository co
 ## 📌 Table of Contents
 
 ### Creational Patterns
-- [Singleton](src/creational/Singleton.kt)
-- [Abstract Factory](src/creational/AbstractFactory.kt)
-- [Builder](src/creational/Builder.kt)
-- [Prototype](src/creational/Prototype.kt)
+- [Singleton](src/structuralPatterns/Singleton.kt)
+- [Abstract Factory](src/structuralPatterns/AbstractFactory.kt)
+- [Builder](src/structuralPatterns/Builder.kt)
+- [Prototype](src/structuralPatterns/Prototype.kt)
 
 ### Structural Patterns
-- [Adapter](src/structural/Adapter.kt)
-- [Bridge](src/structural/Bridge.kt)
-- [Composite](src/structural/Composite.kt)
-- [Decorator](src/structural/Decorator.kt)
-- [Facade](src/structural/Facade.kt)
-- [Flyweight](src/structural/Flyweight.kt)
-- [Proxy](src/structural/Proxy.kt)
+- [Adapter](src/creationalPatterns/Adapter.kt)
+- [Bridge](src/creationalPatterns/Bridge.kt)
+- [Composite](src/creationalPatterns/Composite.kt)
+- [Decorator](src/creationalPatterns/Decorator.kt)
+- [Facade](src/creationalPatterns/Facade.kt)
+- [Flyweight](src/creationalPatterns/Flyweight.kt)
+- [Proxy](src/creationalPatterns/Proxy.kt)
 
 ### Behavioral Patterns
-- [Chain of Responsibility](src/behavioral/ChainOfResponsibility.kt)
-- [Command](src/behavioral/Command.kt)
-- [Interpreter](src/behavioral/Interpreter.kt)
-- [Iterator](src/behavioral/Iterator.kt)
-- [Mediator](src/behavioral/Mediator.kt)
-- [Memento](src/behavioral/Memento.kt)
-- [Observer](src/behavioral/Observer.kt)
-- [State](src/behavioral/State.kt)
-- [Strategy](src/behavioral/Strategy.kt)
-- [Template Method](src/behavioral/TemplateMethod.kt)
-- [Visitor](src/behavioral/Visitor.kt)
+- [Chain of Responsibility](src/behaviouralPatterns/ChainOfResponsibility.kt)
+- [Command](src/behaviouralPatterns/Command.kt)
+- [Interpreter](src/behaviouralPatterns/Interpreter.kt)
+- [Iterator](src/behaviouralPatterns/Iterator.kt)
+- [Mediator](src/behaviouralPatterns/Mediator.kt)
+- [Memento](src/behaviouralPatterns/Memento.kt)
+- [Observer](src/behaviouralPatterns/Observer.kt)
+- [State](src/behaviouralPatterns/State.kt)
+- [Strategy](src/behaviouralPatterns/Strategy.kt)
+- [Template Method](src/behaviouralPatterns/TemplateMethod.kt)
+- [Visitor](src/behaviouralPatterns/Visitor.kt)
 
 ## 📝 Quick Guide for Junior Developers
 Below is a table to help junior developers understand the purpose of each design pattern:
