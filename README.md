@@ -5,10 +5,10 @@ Welcome to the **Design Patterns in Kotlin** repository! 🚀 This repository co
 ## 📌 Table of Contents
 
 ### Creational Patterns
-- [Singleton](src/structuralPatterns/Singleton.kt)
-- [Abstract Factory](src/structuralPatterns/AbstractFactory.kt)
-- [Builder](src/structuralPatterns/Builder.kt)
-- [Prototype](src/structuralPatterns/Prototype.kt)
+- [Singleton](src/creationalPatterns/Singleton.kt)
+- [Abstract Factory](src/creationalPatterns/AbstractFactoryPattern.kt)
+- [Builder](src/creationalPatterns/BuilderPattern.kt)
+- [Prototype](src/creationalPatterns/PrototypePattern.kt)
 
 ### Structural Patterns
 - [Adapter](src/creationalPatterns/Adapter.kt)
