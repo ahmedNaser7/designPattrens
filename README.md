@@ -30,7 +30,7 @@
 - [Template Method](src/behaviouralPatterns/TemplateMethod.kt)
 - [Visitor](src/behaviouralPatterns/Visitor.kt)
 
-## 📝 Quick Guide for Junior Developers
+##  Quick Guide for Junior Developers
 Below is a table to help junior developers understand the purpose of each design pattern:
 
 | Pattern | Type | Purpose |
@@ -59,8 +59,3 @@ Below is a table to help junior developers understand the purpose of each design
 | Template Method | Behavioral | Defines the program skeleton in a base class but lets subclasses alter steps. |
 | Visitor | Behavioral | Adds new operations to existing object structures without modifying them. |
 Feel free to contribute by improving the code, adding explanations, or submitting new design pattern implementations. Open a pull request, and let's make this repository better together!
-
-## 📜 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-Happy Coding! 🎯
