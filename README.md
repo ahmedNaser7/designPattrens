@@ -58,4 +58,4 @@ Below is a table to help junior developers understand the purpose of each design
 | Strategy | Behavioral | Defines a family of algorithms and makes them interchangeable. |
 | Template Method | Behavioral | Defines the program skeleton in a base class but lets subclasses alter steps. |
 | Visitor | Behavioral | Adds new operations to existing object structures without modifying them. |
-Feel free to contribute by improving the code, adding explanations, or submitting new design pattern implementations. Open a pull request, and let's make this repository better together!
+
