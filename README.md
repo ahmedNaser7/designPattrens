@@ -1,8 +1,6 @@
 # Design Patterns in Kotlin
 
-Welcome to the **Design Patterns in Kotlin** repository! 🚀 This repository contains implementations of various design patterns in Kotlin to help developers understand and apply them effectively.
-
-## 📌 Table of Contents
+##  Table of Contents
 
 ### Creational Patterns
 - [Singleton](src/creationalPatterns/Singleton.kt)
@@ -60,16 +58,6 @@ Below is a table to help junior developers understand the purpose of each design
 | Strategy | Behavioral | Defines a family of algorithms and makes them interchangeable. |
 | Template Method | Behavioral | Defines the program skeleton in a base class but lets subclasses alter steps. |
 | Visitor | Behavioral | Adds new operations to existing object structures without modifying them. |
-
-## 🔧 How to Use
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/ahmedNaser7/designPattrens.git
-   ```
-2. Open the project in your favorite IDE.
-3. Navigate to any pattern using the **Table of Contents** above and click the links to access the code directly.
-
-## 🤝 Contributing
 Feel free to contribute by improving the code, adding explanations, or submitting new design pattern implementations. Open a pull request, and let's make this repository better together!
 
 ## 📜 License
